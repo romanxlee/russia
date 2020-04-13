@@ -1,0 +1,30 @@
+.video__item {
+    width: 100%;
+    margin: 0;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    text-decoration: none;
+}
+
+.video__item:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.video__item:first-child {
+    margin-right: 18px;
+}
+
+@media (max-width: 767px) {
+    .video__item {
+        margin-bottom: 8px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .video__item:nth-child(1) {
+        margin-right: 16px;
+    }
+
+    
+}
