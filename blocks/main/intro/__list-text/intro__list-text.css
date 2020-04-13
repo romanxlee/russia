@@ -1,0 +1,12 @@
+.intro__list-text {
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 425px) {
+    .intro__list-text {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

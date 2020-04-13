@@ -1,0 +1,22 @@
+.intro__main-text {
+    max-width: 683px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0 0 35px;
+}
+
+@media (max-width: 425px) {
+    .intro__main-text {
+        max-width: 343px;
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .intro__main-text {
+        max-width: 100%;
+    }
+}
