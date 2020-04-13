@@ -1,0 +1,23 @@
+@import url(__subtitle/cover__subtitle.css);
+@import url(__title/cover__title.css);
+@import url(__link/cover__link.css);
+
+.cover {
+    margin: 102px auto 0;
+    background-image: url(../../../images/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 1184px;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+}
+
+.cover:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 767px) {
+    .cover {
+        margin-top: 48px;
+    }
+}

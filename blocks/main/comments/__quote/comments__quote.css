@@ -1,0 +1,25 @@
+.comments__quote {
+    margin: 42px 0 0;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+    .comments__quote {
+        margin: 24px 0 0;
+        font-size: 16px;
+        line-height: 23px;
+        max-width: 343px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .comments__quote {
+        margin-top: 24px;
+        max-width: 382px;
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
