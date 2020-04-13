@@ -1,0 +1,8 @@
+
+
+@media (max-width: 767px) {
+    .place__main-text {
+        padding: 0 16px 0;
+        max-width: calc(100% - 32px);
+    }
+}

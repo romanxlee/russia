@@ -1,0 +1,31 @@
+.place__paragraph {
+    max-width: 484px;
+    margin: 0;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.place__paragraph:first-child {
+    margin-bottom: 36px;
+}
+
+@media (max-width: 767px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .place__paragraph:first-child {
+        margin-bottom: 24px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}

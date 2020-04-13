@@ -1,0 +1,25 @@
+@import url(./__title/place__title.css);
+@import url(./__image/place__image.css);
+@import url(./__paragraph/place__paragraph.css);
+@import url(./__main-text/place__main-text.css);
+@import url(./__website/place__website.css);
+@import url(./__url-heading/place__url-heading.css);
+@import url(./__url/place__url.css);
+
+.place {
+    max-width: 984px;
+    margin-bottom: 72px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 60px;
+}
+
+@media (max-width: 767px) {
+    .place {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin-bottom: 48px;
+    }
+}
